@@ -1,0 +1,17 @@
+{
+  "name": "root/test",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Sebastien Maloron",
+      "email": "contact@smaloron.eu"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "m2i\\ecommerce\\Entity\\": "src/Models",
+      "m2i\\ecommerce\\DAO\\": "src/Models"
+    }
+  }
+}
